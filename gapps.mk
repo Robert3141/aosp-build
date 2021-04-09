@@ -14,6 +14,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+# Check if variable is defined
+ifndef TARGET_ARCH
+$(error Android Platform is not set)
+endif
+
+ifndef TARGET_SDK_VERSION
+$(error Android SDK version is not set)
+endif
+
 COMMON_PATH := vendor/gapps/sources/$(TARGET_ARCH)/$(TARGET_SDK_VERSION)
 
 APK_PREBUILT := vendor/gapps/core/prebuilt.mk
