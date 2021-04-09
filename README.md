@@ -1,5 +1,9 @@
 ## BiTGApps AOSP Based Build System
 
+## Disclaimer
+1. **Use this at your own risk.** Cyanogenmod received a cease and desist letter from Google when they included Google Apps in their ROM. See: [A Note on Google Apps for Android](http://android-developers.blogspot.com/2009/09/note-on-google-apps-for-android.html)
+2. **This project is in no way affiliated with, sponsored by, or related to Google.**
+
 **1. Download And Install Git LFS**
 
 Download git lfs:
