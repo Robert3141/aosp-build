@@ -23,7 +23,7 @@ ifndef TARGET_SDK_VERSION
 $(error Android SDK version is not set)
 endif
 
-COMMON_PATH := vendor/gapps/sources/$(TARGET_ARCH)/$(TARGET_SDK_VERSION)
+GAPPS_COMMON_PATH := vendor/gapps/sources/$(TARGET_ARCH)/$(TARGET_SDK_VERSION)
 
 APK_PREBUILT := vendor/gapps/core/prebuilt.mk
 
